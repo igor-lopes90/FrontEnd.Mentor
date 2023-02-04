@@ -23,7 +23,7 @@ main {
     background-color: hsl(0, 0%, 100%);
     max-width: 290px;
     padding: 15px;
-    border-radius: 15px;
+    border-radius: 12px;
 }
 
 img {
