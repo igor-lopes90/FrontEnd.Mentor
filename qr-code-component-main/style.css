@@ -11,9 +11,9 @@ body {
     font-family: 'Outfit', sans-serif;
     background-color: hsl(212, 45%, 89%);
     min-height: 100vh;
-
-    position: relative;
-    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .box {
@@ -23,11 +23,6 @@ body {
     max-width: 280px;
     text-align: center;
     margin: 0 auto;
-
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,  -50%);
 }
 
 img {
