@@ -36,14 +36,14 @@ img {
 }
 
 h1 {
-    font-size: 22px;
+    font-size: 1.4em;
     text-align: center;
     padding: 20px 0 0 0;
     color: hsl(218, 44%, 22%);
 }
 
 p {
-    font-size: 15px;
+    font-size: 1em;
     text-align: center;
     padding: 20px 0;
     color: hsl(220, 15%, 55%);
