@@ -9,28 +9,20 @@
 
   <title>Frontend Mentor | Product preview card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
 
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
 </head>
 
 <body>
-  <section class="image">
-    <picture>
+
+
+    <picture class="image">
       <source media="(max-width: 750px)" srcset="images/image-product-mobile.jpg" type="image/jpeg">
       <img src="images/image-product-desktop.jpg" alt="image-product-desktop">
     </picture>
-  </section>
 
-  <section class="card">
+
+
+  <div class="card">
     <h2>Perfume</h2>
     <h3 class="title">Gabrielle Essence Eau De Parfum</h3>
     <p class="text">
@@ -47,7 +39,7 @@
       <input type="button" value="Add to Cart">
       <span id=cart></span>
     </div>
-  </section>
+  </div>
 
   <!--
   <div class="attribution">
