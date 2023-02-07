@@ -17,7 +17,20 @@
 * {
     padding: 0px;
     margin: 0px;
+}
 
+body {
+    background-color: var(--Cream);
+}
+
+
+div.card {
+    background-color: var(--White);
+}
+
+img.image {
+    max-height: 375px;
+}
 
     /*
 display: flex;
