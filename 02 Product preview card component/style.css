@@ -17,37 +17,11 @@
 * {
     padding: 0px;
     margin: 0px;
-}
-
-body {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 
-img {
-    width: 300px;
-    
-}
+    /*
+display: flex;
+flex-direction: row (linha) column (coluna);
+flex-wrap: wrap;
 
-.card {
-    max-width: 300px;
-    background-color: red;
-}
-
-
-
-
-/*
-   .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-
-  */
+    */
