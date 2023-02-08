@@ -41,14 +41,14 @@ body {
 h2 {
     color:var(--Neutral_White);
     margin: 20px 0;
-    font-size: 1.4em;
+    font-size: 1.3em;
     
 }
 
 section > p {
     color:var(--Primary_Soft-blue);
     margin-bottom: 20px;
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 .detail {
@@ -56,8 +56,19 @@ section > p {
     justify-content: space-between;
 }
 
+.time-img {
+    width: 17px;
+    height: 17px;
+}
+
+.price-img {
+    width: 11px;
+    height: 17px;
+}
+
 .detail-description {
-    padding-left: 8px;
+    padding-left: 7px;
+    font-size: .9em;
 }
 
 .price {
@@ -67,22 +78,27 @@ section > p {
 
 .time {
     color:var(--Primary_Soft-blue);
-    display: flex ;
+    display: flex;
 }
 
 hr {
-    margin: 20px 0;
+    /*margin: 20px 0;*/
     border: 1px solid var(--Neutral_VDB-line) ;
-    border-style: ;
 }
 
 .credit-card {
     display:flex;
+    color: var(--Primary_Soft-blue);
+    align-items: center;
 }
 
-/*concluir o credito */
-.credit-card>img {
-    width: 40px;
+.credit-card > p > a {
+    color: var(--Neutral_White);
+}
+
+.credit-card > img {
+    width: 30px;
+    margin-right: 12px;
 }
 
 /*
