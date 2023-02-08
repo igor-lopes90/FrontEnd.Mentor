@@ -17,22 +17,73 @@
     padding: 0px;
 }
 
-main {
-    width: 100vw;
+body {
+    background-color: var(--Neutral_VDB-main-BG);
+    font-family: 'Outfit', sans-serif;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--Neutral_VDB-main-BG);
 }
 
 .card {
-    min-width: 375px;
+    max-width: 280px;
     background-color: var(--Neutral_VDB-card-BG);
+    border-radius: 15px;
+    padding: 20px;
 }
 
+.image {
+    width: 100%;
+    border-radius: 8px;
+}
 
+h2 {
+    color:var(--Neutral_White);
+    margin: 20px 0;
+    font-size: 1.4em;
+    
+}
 
+section > p {
+    color:var(--Primary_Soft-blue);
+    margin-bottom: 20px;
+    font-size: 1.1em;
+}
 
+.detail {
+    display: flex ;
+    justify-content: space-between;
+}
+
+.detail-description {
+    padding-left: 8px;
+}
+
+.price {
+    color:var(--Primary_Cyan);
+    display: flex;
+}
+
+.time {
+    color:var(--Primary_Soft-blue);
+    display: flex ;
+}
+
+hr {
+    margin: 20px 0;
+    border: 1px solid var(--Neutral_VDB-line) ;
+    border-style: ;
+}
+
+.credit-card {
+    display:flex;
+}
+
+/*concluir o credito */
+.credit-card>img {
+    width: 40px;
+}
 
 /*
     .attribution { font-size: 11px; text-align: center; }
