@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+/* font-family: 'Outfit', sans-serif; */
+
+:root {
+    --Primary_Soft-blue: hsl(215, 51%, 70%);
+    --Primary_Cyan: hsl(178, 100%, 50%);
+    --Neutral_VDB-main-BG: hsl(217, 54%, 11%);
+    --Neutral_VDB-card-BG: hsl(216, 50%, 16%);
+    --Neutral_VDB-line: hsl(215, 32%, 27%);
+    --Neutral_White: hsl(0, 0%, 100%);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Neutral_VDB-main-BG);
+}
+
+.card {
+    min-width: 375px;
+    background-color: var(--Neutral_VDB-card-BG);
+}
+
+
+
+
+
+/*
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+*/
