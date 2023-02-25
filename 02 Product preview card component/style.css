@@ -12,6 +12,8 @@
     --Dark_blue: hsl(212, 21%, 14%);
     --Grayish_blue: hsl(228, 12%, 48%);
     --White: hsl(0, 0%, 100%);
+    --fontSans: 'Montserrat', sans-serif;
+    --fontSerif: 'Fraunces', serif;
 }
 
 * {
@@ -21,15 +23,42 @@
 
 body {
     background-color: var(--Cream);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
 div.card {
     background-color: var(--White);
+    width: 380px;
+    border-radius:10px;
+
 }
 
-img.image {
-    max-height: 375px;
+img {
+    max-width: 100%;
+    border-radius: 10px 10px 0 0 ;
+}
+
+.text {
+    padding: 20px;
+}
+
+h2 {
+    color: var(--Grayish_blue);
+    font-family: var(--fontSans);
+    font-weight: normal;
+    font-size: .9em;
+    text-transform: uppercase;
+    letter-spacing: .4em;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-family: var(--fontSerif);
+    
 }
 
     /*
