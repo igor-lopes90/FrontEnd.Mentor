@@ -115,6 +115,7 @@ button > img {
 
     .card {
         display: flex;
+
         flex-direction: column;
     }
 
