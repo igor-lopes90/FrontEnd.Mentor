@@ -1,0 +1,35 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root {
+    --Primary-Pale_blue: hsl(225, 100%, 94%);
+    --Primary-Bright_blue: hsl(245, 75%, 52%);
+    --Neutral-Very_pale_blue: hsl(225, 100%, 98%);
+    --Neutral-Desaturated_blue: hsl(224, 23%, 55%);
+    --Neutral-Dark_blue: hsl(223, 47%, 23%);
+    --Font-Red_Hat: 'Red Hat Display', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--Primary-Pale_blue);
+    background-image: url(images/pattern-background-mobile.svg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+background-color
+background-image
+background-position
+background-size
+background-repeat
+background-origin
+background-clip
+background-attachment
