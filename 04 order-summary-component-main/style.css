@@ -18,18 +18,115 @@
 body {
     background-color: var(--Primary-Pale_blue);
     background-image: url(images/pattern-background-mobile.svg);
-    background-position: center center;
-    background-size: cover;
+    background-position: top center;
+    background-size: 639px 189px;
     background-repeat: no-repeat;
 }
 
+main {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
 
+.card {
+    height: 567px;
+    width: 327px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 
-background-color
-background-image
-background-position
-background-size
-background-repeat
-background-origin
-background-clip
-background-attachment
+.hero {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.text {
+    font-family: var(--Font-Red_Hat);
+    margin: 32px 32px 0px 32px;
+}
+
+.title {
+    color: var(--Neutral-Dark_blue);
+    font-size: 1.4em;
+    padding-bottom: 16px;
+    text-align: center;
+    font-weight: 900;
+}
+
+.description {
+    color: var(--Neutral-Desaturated_blue);
+    font-size: .93em;
+    line-height: 25px;
+    text-align: center;
+}
+
+.plan-card {
+    background-color: var(--Neutral-Very_pale_blue);
+    font-family: var(--Font-Red_Hat);
+    width: 279px;
+    height: 81px;
+    border-radius: 11px;
+    margin: 24px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.description-plan {
+    display: flex;
+    align-items: center;
+
+    padding: 17px 16px 16px 16px;
+}
+
+.detail-plan {
+    padding-left: 20px;
+    padding-right: 50px;
+}
+
+.plan {
+    color: var(--Neutral-Dark_blue);
+    font-size: .88em;
+    font-weight: 900;
+    padding-bottom: 3px;
+    line-height: 19px;
+}
+
+.price {
+    color: var(--Neutral-Desaturated_blue);
+    font-size: .88em;
+    font-weight: 500;
+}
+
+.change-buttom {
+    color: var(--Primary-Bright_blue);
+    font-size: .8em;
+    font-weight: 700;
+}
+
+button {
+    width: 279px;
+    height: 50px;
+    background-color: var(--Primary-Bright_blue);
+    border: 0;
+    border-radius: 11px;
+    margin: 0 24px 24px 24px;
+
+    color: white;
+    font-family: var(--Font-Red_Hat);
+    font-size: .95em;
+    font-weight: 700;
+
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+}
+
+.cancel-order > a {
+    font-family: var(--Font-Red_Hat);
+    color: var(--Neutral-Desaturated_blue);text-decoration: none;
+    font-size: .95em;
+    font-weight: 900;
+
+    display: flex;
+    justify-content: center;
+}
