@@ -76,7 +76,6 @@ main {
 .description-plan {
     display: flex;
     align-items: center;
-
     padding: 17px 16px 16px 16px;
 }
 
@@ -140,11 +139,76 @@ button {
     }
 
     .card {
-        height: 697px;
-        width: 450px;
-        background-color: white;
-        border-radius: 20px;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        height: 585px;
+        width: 380px;
+        box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
     }
 
+    .title {
+        font-size: 1.5em;
+        padding-bottom: 14px;
+    }
+
+    .description {
+        font-size: .87em;
+        line-height: 22px;
+    }
+
+    .plan-card {
+        width: 300px;
+        margin: 20px 40px 22px 40px;
+        filter: none;
+    }
+
+    .description-plan {
+        padding: 21px 18px 20px 18px;
+    }
+
+    .plan-card > div > img {
+        width: 40px;
+    }
+
+    .detail-plan {
+        padding-right: 70px;
+    }
+    
+    .plan {
+        font-size: .83em;
+    }
+    
+    .price {
+        font-size: .83em;
+    }
+    
+    .change-buttom {
+        font-size: .75em;
+    }
+    
+    button {
+        width: 300px;
+        height: 45px;
+        margin: 0 40px 30px 40px;
+    
+        font-size: .8em;
+    }
+    
+    .cancel-order > a {
+        font-size: .8em;
+    }
+
+    .change-buttom > a:hover {
+        cursor: pointer;
+        text-decoration: none;
+        color: #766CF1;
+    }
+
+    button:hover {
+        cursor: pointer;
+        background-color: #766CF1;
+    }
+
+    .cancel-order > a:hover {
+        cursor: pointer;
+        color: var(--Neutral-Dark_blue);
+    }
 }
