@@ -100,7 +100,7 @@ button {
 }
 
 
-@media screen and (min-width: 600px){
+@media screen and (min-width: 900px){
     main {
         height: 100vh;
         flex-direction: row;
