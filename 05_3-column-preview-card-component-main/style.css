@@ -1,2 +1,51 @@
 @charset UTF-8;
 
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+:root{
+    --Bright_orange: hsl(31, 77%, 52%);
+    --Dark_cyan: hsl(184, 100%, 22%);
+    --Very_dark_cyan: hsl(179, 100%, 13%);
+    --Transparent_white: hsla(0, 0%, 100%, 0.75); /* paragraphs */
+    --Very_light_gray: hsl(0, 0%, 95%); /*background, headings, buttons*/
+    --FONT_Lexend_Deca: 'Lexend Deca', sans-serif;
+    --FONT_Big_Shoulders_Display: 'Big Shoulders Display', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: var(--Very_light_gray);
+}
+
+main {
+    width: 100vw;
+    display: flex;
+
+    flex-direction: row; /* column */
+    justify-content: center;
+    align-items: center;
+}
+
+.card1 {
+    width: 327px;
+    height: 442px;
+    background-color: var(--Bright_orange);
+}
+
+.card2 {
+    width: 327px;
+    height: 442px;
+    background-color: var(--Dark_cyan);
+}
+
+.card3 {
+    width: 327px;
+    height: 442px;
+    background-color: var(--Very_dark_cyan);
+}
