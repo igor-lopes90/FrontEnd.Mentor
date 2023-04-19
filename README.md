@@ -8,3 +8,5 @@
 3- NFT Preview Card Component: [Diretório](https://github.com/igor-lopes90/FrontEnd.Mentor/tree/main/03%20nft-preview-card-component-main) - [Página](https://igor-lopes90.github.io/FrontEnd.Mentor/03%20nft-preview-card-component-main)
 
 4- Order summary component: [Diretório](https://github.com/igor-lopes90/FrontEnd.Mentor/tree/main/04%20order-summary-component-main) - [Página](https://igor-lopes90.github.io/FrontEnd.Mentor/04%20order-summary-component-main/)
+
+5- three column preview card component: [Diretório](https://github.com/igor-lopes90/FrontEnd.Mentor/tree/main/05_3-column-preview-card-component-main) - [Página](https://igor-lopes90.github.io/FrontEnd.Mentor/05_3-column-preview-card-component-main/)
