@@ -1,0 +1,28 @@
+@charset UTF-8;
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Fraunces';
+    src: url(assets/fonts/fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf), url(assets/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url(assets/fonts/manrope/Manrope-VariableFont_wght.ttf), url(assets/fonts/manrope/static/Manrope-Regular.ttf);
+}
+
+:root{
+    --Dark-Purple: #24053E;
+    --Davys-Grey: #584D62;
+    --Eucaplyptus: #44FFA1;
+    --Ghost-White: #FCF8FF;
+    --White: #FFFFFF;
+}
+
+body {
+    background-color: var(--Dark-Purple);
+}
