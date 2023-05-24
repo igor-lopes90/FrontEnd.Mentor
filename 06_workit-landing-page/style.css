@@ -23,6 +23,65 @@
     --White: #FFFFFF;
 }
 
-body {
+/* Especificações fundo Menu e Título */
+.menu{ 
     background-color: var(--Dark-Purple);
+    height: 93px;
+    display: flex;
+    justify-content: space-between;
 }
+
+.main-title{
+    background-color: var(--Dark-Purple);
+    height: 267px;
+}
+
+.header-bottom {
+    background-color: var(--Dark-Purple);
+    height: 56px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+/* Especificações Elementos Menu e Título */
+
+.menu > img { /*Logo*/
+    height: 34px;
+    justify-content: left;
+    padding-top: 32px;
+    padding-left: 16px;
+
+}
+
+.menu > p { /*Apply for Access*/
+    font-family: 'Manrope';
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 32px;
+    justify-content: right;
+    padding-top: 32px;
+    padding-right: 16px;
+}
+
+.access {
+    color: var(--White);
+    text-decoration: none;
+    border-bottom: 3px solid #44FFA1 ;
+    padding-bottom: 4px;
+}
+
+.main-title {
+    font-family: Fraunces;
+    font-size: 1.2em;
+    color: var(--White);
+    text-align: center;
+    padding: 0 16px 0 16px;
+}
+
+
+
+
+.phone {
+    width: 320px;
+}
+
