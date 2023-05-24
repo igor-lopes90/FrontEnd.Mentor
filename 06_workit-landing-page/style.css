@@ -6,8 +6,13 @@
 }
 
 @font-face {
-    font-family: 'Fraunces';
-    src: url(assets/fonts/fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf), url(assets/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf);
+    font-family: 'Fraunces1';
+    src: url(assets/fonts/fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
+}
+
+@font-face {
+    font-family: 'Fraunces2';
+    src: url(assets/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf);
 }
 
 @font-face {
@@ -33,7 +38,7 @@
 
 .main-title{
     background-color: var(--Dark-Purple);
-    height: 267px;
+    height: 332px;
 }
 
 .header-bottom {
@@ -66,22 +71,44 @@
 .access {
     color: var(--White);
     text-decoration: none;
-    border-bottom: 3px solid #44FFA1 ;
+    border-bottom: 3px solid var(--Eucaplyptus) ;
     padding-bottom: 4px;
 }
 
 .main-title {
-    font-family: Fraunces;
-    font-size: 1.2em;
-    color: var(--White);
+    font-family: 'Fraunces2';
+    font-size: 1.5em;
     text-align: center;
-    padding: 0 16px 0 16px;
+    color: var(--White);
+    padding: 37px 16px 0 16px;
 }
 
+.main-title > h1 > span {   
+    border-bottom: 3px solid var(--Eucaplyptus);
+}
 
+.learn-button {
+    width: 133px;
+    height: 55px;
+    border: none;
+    margin-top: 40px;
+    background-color: var(--Eucaplyptus);
 
+    font-family: 'Manrope';
+    font-size: .65em;
+    font-weight: 700;
+    color: var(--Dark-Purple);
+}
 
+/* Imagem celular */
 .phone {
+    position: absolute;
     width: 320px;
+    height: 184px;
+    top: 389px;
+    left: 32px;
+    right: 32px
+
+
 }
 
