@@ -38,24 +38,26 @@
 
 .main-title{
     background-color: var(--Dark-Purple);
-    height: 332px;
+    height: 312px;
 }
 
 .header-bottom {
     background-color: var(--Dark-Purple);
-    height: 56px;
+    height: 56.71px;
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 155px;
 }
 
-/* Especificações Elementos Menu e Título */
+/* Especificações Conteúdo Menu e Título */
 
 .menu > img { /*Logo*/
     height: 34px;
     justify-content: left;
     padding-top: 32px;
     padding-left: 16px;
-
 }
 
 .menu > p { /*Apply for Access*/
@@ -105,10 +107,95 @@
     position: absolute;
     width: 320px;
     height: 184px;
-    top: 389px;
-    left: 32px;
-    right: 32px
-
-
+    top: 410px;
 }
 
+/* Especificações fundo main.list */
+
+.list {
+    background-color: var(--Ghost-White);
+}
+
+.list-bottom{
+    height: 71px;
+    background-color: var(--Ghost-White);
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+
+/* Estrutura conteúdo main.list */
+
+.list-number {
+    font-family: 'Fraunces2';
+    font-size: 1.3em;
+    color: var(--Dark-Purple);
+    text-align: center;
+    width: 48px;
+    height: 46px;
+    border: 1px solid var(--Davys-Grey);
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 24px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-family: 'Fraunces';
+    font-size: 1.75em;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: center;
+    color: var(--Dark-Purple);
+    margin-bottom: 16px;
+}
+
+.description-1, .description-2 {
+    font-family: 'Manrope';
+    font-size: .95em;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    color: var(--Davys-Grey);
+    padding: 0 16px;
+    margin-bottom: 40px;
+}
+
+.description-3 {
+    font-family: 'Manrope';
+    font-size: .95em;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    color: var(--Davys-Grey);
+    padding: 0 16px;
+}
+
+/* Testemunho do fundador */
+
+.testimonial-img {
+    text-align: center;
+}
+
+.founder {
+    height: 281px;
+    margin-top: 100.29px;
+}
+
+.testimonial-card {
+    width: 343px;
+    height: 378px;
+    background-color: var(--Dark-Purple);
+    text-align: center;
+    margin: auto;
+    
+}
+
+
+
+footer {
+    height: 200px;
+}
