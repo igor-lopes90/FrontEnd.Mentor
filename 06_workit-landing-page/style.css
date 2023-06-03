@@ -28,7 +28,7 @@
     --White: #FFFFFF;
 }
 
-/* Especificações fundo Menu e Título */
+/* Especificações ***FUNDO*** Menu e Título */
 .menu{ 
     background-color: var(--Dark-Purple);
     height: 93px;
@@ -51,7 +51,7 @@
     margin-bottom: 155px;
 }
 
-/* Especificações Conteúdo Menu e Título */
+/* Especificações ***CONTEUDO*** Menu e Título */
 
 .menu > img { /*Logo*/
     height: 34px;
@@ -60,7 +60,7 @@
     padding-left: 16px;
 }
 
-.menu > p { /*Apply for Access*/
+.menu > p { /*BOTÃO: Apply for Access*/
     font-family: 'Manrope';
     font-size: 1em;
     font-weight: 700;
@@ -110,7 +110,7 @@
     top: 410px;
 }
 
-/* Especificações fundo main.list */
+/* Especificações ***FUNDO*** main */
 
 .list {
     background-color: var(--Ghost-White);
@@ -194,7 +194,23 @@ h2 {
     
 }
 
+h3 {
+    font-family: 'Fraunces2';
+    font-size: 32px;
+    line-height: ;
+    color: var(--White);
+    padding: 32px 31.5px 16px 31.5px;
+}
 
+.testimony {
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 28px;
+    color: var(--White);
+    padding: 0 31px;
+
+}
 
 footer {
     height: 200px;
