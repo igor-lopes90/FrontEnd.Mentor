@@ -41,14 +41,19 @@
     height: 312px;
 }
 
-.header-bottom {
+.curve-header {
     background-color: var(--Dark-Purple);
     height: 56.71px;
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
+
     display: flex;
     justify-content: center;
-    margin-bottom: 155px;
+}
+
+.background-curve {
+    height: 213px;
+    background-color: var(--Ghost-White);
 }
 
 /* Especificações ***CONTEUDO*** Menu e Título */
@@ -95,6 +100,7 @@
     border: none;
     margin-top: 40px;
     background-color: var(--Eucaplyptus);
+    
 
     font-family: 'Manrope';
     font-size: .65em;
@@ -176,13 +182,21 @@ h2 {
 
 /* Testemunho do fundador */
 
-.testimonial-img {
+.testimonial-part {
+    width: 343px;
+    height: 506.5px;
+    margin: 100.29px auto;
+    position: relative;
+}
+
+.tertimony-img {
     text-align: center;
+    position: relative;
 }
 
 .founder {
     height: 281px;
-    margin-top: 100.29px;
+    position: relative;
 }
 
 .testimonial-card {
@@ -190,13 +204,16 @@ h2 {
     height: 378px;
     background-color: var(--Dark-Purple);
     text-align: center;
-    margin: auto;
-    
+
+    position: absolute;
+    top: 229px;
+    left: 50%;
+    margin-left: -170px;
 }
 
 h3 {
     font-family: 'Fraunces2';
-    font-size: 32px;
+    font-size: 2em;
     line-height: ;
     color: var(--White);
     padding: 32px 31.5px 16px 31.5px;
@@ -204,14 +221,50 @@ h3 {
 
 .testimony {
     font-family: 'Manrope';
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 200;
     line-height: 28px;
     color: var(--White);
     padding: 0 31px;
+}
+
+.testimony-button {
+    width: 172px;
+    height: 55px;
+    border: none;
+    margin-top: 24px;
+    background-color: var(--Eucaplyptus);
+
+    font-family: 'Manrope';
+    font-size: 1em;
+    font-weight: 700;
+    color: var(--Dark-Purple);
+}
+
+
+/* Footer */
+
+footer {
+    text-align: center;
 
 }
 
-footer {
-    height: 200px;
+.logo-dark {
+    width: 95.76px;
+    height: 24.61px;
+    margin-top: 74px;
+}
+
+.social {
+
+    margin-top: 57.62px;
+    margin-bottom: 63.78px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.twitter {
+    padding: 0 28px;
 }
