@@ -1,0 +1,49 @@
+
+
+/* Font size (name and stats): 18px */
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root{
+    --font: 'Kumbh Sans', sans-serif;
+    --dark_cyan: hsl(185, 75%, 39%);
+    --very_dark_desaturated_blue: hsl(229, 23%, 23%);
+    --dark_grayish_blue: hsl(227, 10%, 46%);
+    --dark_gray: hsl(0, 0%, 59%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--dark_cyan);
+    font: var(--font);
+
+    height: 100vh;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    background-image: url('images/bg-pattern-top.svg'), url('images/bg-pattern-bottom.svg');
+    background-repeat: no-repeat, no-repeat;
+    background-size: 978px 976px, 978px 976px;
+    background-position-x: -85%, 150%;
+    background-position-y: 150%, -100%;
+}
+
+.container {
+    width: 350px;
+    height: 374px;
+    border-radius: 15px;
+    box-shadow: 0px 50px 100px -20px hsla(197, 84%, 20%, 0.5);
+    background: white url('images/bg-pattern-card.svg') no-repeat  top;
+}
+
+.foto-perfil {
+    
+}
+
