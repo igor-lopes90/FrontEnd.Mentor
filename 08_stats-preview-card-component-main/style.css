@@ -1,0 +1,21 @@
+* {
+    margin, padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container {
+    width: 327px;
+    height: 780px;
+    background-color: aqua;
+}
+
+img {
+    width: 100%;
+}
