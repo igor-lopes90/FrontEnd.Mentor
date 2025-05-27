@@ -4,24 +4,31 @@
 
 :root {
     --yellow: hsl(47, 88%, 63%);
-    --white: hsl(0, 0%, 100%); 
+    --white: hsl(0, 0%, 100%);
     --gray-500: hsl(0, 0%, 42%);
-    --Gray-950: hsl(0, 0%, 7%);
+    --gray-950: hsl(0, 0%, 7%);
+    --fonte-familia: Figtree;
+    --fonte-bold: 800;
+    --fonte-medium: 500;
+
 }
 
 * {
     padding: 0;
     margin: 0;
-    font-size: 16px;
 }
 
 body {
     background-color: var(--yellow);
 
+    font-family: var(--fonte-familia);
+    line-height: 150%;
+    letter-spacing: 0px;
+    color: var(--gray-950);
 }
 
 main {
-    height: 100vh;
+    height: 96vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,11 +37,15 @@ main {
 .card {
     background-color: var(--white);
     width: 384px;
-    height: 522px;
     padding: 24px;
-    border: 1px solid var(--Gray-950);
+    border: 1px solid var(--gray-950);
     border-radius: 20px;
     box-shadow: 8px 8px 0px 0px rgba(0, 0, 0);
+
+    font-family: var(--fonte-familia);
+    line-height: 150%;
+    letter-spacing: 0px;
+    color: var(--gray-950);
 }
 
 .banner {
@@ -43,6 +54,7 @@ main {
 
 .banner__imagem {
     width: 100%;
+    height: 100%;
     border-radius: 10px;
 }
 
@@ -54,6 +66,82 @@ main {
     background-color: var(--yellow);
     padding: 4px 12px;
     border-radius: 4px;
-    color: var(--Gray-950);
-    
+    font-size: 1rem;
+    font-weight: var(--fonte-bold);
+}
+
+.card__descricao__data {
+    padding: 12px 0;
+    font-size: 1rem;
+    font-weight: var(--fonte-medium);
+}
+
+.card__descricao__titulo {
+    text-decoration: none;
+    font-size: 1.625rem;
+    font-weight: var(--fonte-bold);
+    color: var(--gray-950);
+}
+
+.card__descricao__titulo:hover {
+    color: var(--yellow);
+}
+
+.card__descricao__texto {
+    color: var(--gray-500);
+    font-size: 1.125rem;
+    font-weight: var(--fonte-medium);
+    padding: 12px 0;
+}
+
+.card__autor {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+    gap: 12px;
+    height: 36px;
+}
+
+.card__autor__foto {
+    height: 100%;
+}
+
+.card__autor__nome {
+    font-size: 1rem;
+    font-weight: var(--fonte-bold);
+}
+
+.rodape__texto {
+    font-size: 0.688rem;
+    text-align: center;
+}
+
+.rodape__link {
+    font-size: 0.688rem;
+    text-decoration: none;
+    color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 600px) {
+    .card {
+        width: 327px;
+        
+    }
+
+    .card__descricao__indice {
+        font-size: 0.875rem;
+    }
+
+    .card__descricao__data {
+        font-size: 0.875rem;
+    }
+
+    .card__descricao__titulo {
+        font-size: 1.375rem;
+    }
+
+    .card__descricao__texto {
+        font-size: 1rem;
+    }
 }
