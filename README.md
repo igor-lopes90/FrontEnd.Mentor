@@ -13,3 +13,4 @@
 
 6- Blog Preview Card: [Diretório](https://github.com/igor-lopes90/FrontEnd.Mentor/tree/main/06_blog-preview-card-main) - [Página](https://igor-lopes90.github.io/FrontEnd.Mentor/06_blog-preview-card-main/)
 
+7- Profile Card Component: [Diretório](https://github.com/igor-lopes90/FrontEnd.Mentor/tree/main/07_profile-card-component-main) - [Página](https://igor-lopes90.github.io/FrontEnd.Mentor/07_profile-card-component-main/)
